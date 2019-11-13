@@ -8,10 +8,12 @@ I used media-queries and the apple of my eye: CSS Flexbox Layout. Responsive des
 
 ### Built With
 
-[x] Mobile-First
-[x] Flexbox Layout
-[x] Pure HTML5/CSS3
+- [x] Mobile-First
+- [x] Flexbox Layout
+- [x] Pure HTML5/CSS3
 
-#### License
+### License
 
 **Apache 2.0**
+
+<img src="images/Template-index-html.png">
