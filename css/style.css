@@ -136,12 +136,6 @@ hr {
     padding-bottom: 1em;
 }
 
-.article-container-icon {
-
-    margin-top: .7em;
-    font-size: 5em;
-}
-
 .hidden {   /* acessível a leitores de tela*/
 
     width: 0;
@@ -149,11 +143,6 @@ hr {
     overflow: hidden;
     /* opacity: 0; */
     display: block;
-}
-
-.icon-truck {
-
-   color: rgb(185, 22, 22);
 }
 
 .article-container-title-transp, .article-container-title-hist, .article-container-title-alivre {
@@ -179,11 +168,6 @@ hr {
     color: rgb(45, 177, 45);
 }
 
-.icon-users {
-
-    color: rgb(45, 177, 45);
-}
-
 .article-container-title-cl, .article-container-title-missao, .article-container-title-instal {
 
     letter-spacing: 0.1em;
@@ -192,10 +176,6 @@ hr {
     font-size: 1.7em;
 }
 
-.icon-camera {
-
-    color: rgb(37, 153, 173);
-}
 
 .article-container-title-med, .article-container-title-humaniz, .article-container-title-bibl {
     letter-spacing: 0.1em;
@@ -204,22 +184,12 @@ hr {
     font-size: 1.7em;
 }
 
-.icon-aid-kit {
-
-    color: rgb(204, 169, 29);
-}
-
 .article-container-title-educ, .article-container-title-aloj, .article-container-title-val {
 
     letter-spacing: 0.1em;
     color: rgb(149, 45, 158);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-size: 1.7em;
-}
-
-.icon-book {
-
-    color: rgb(149, 45, 158);
 }
 
 .img-width100 img {
@@ -408,7 +378,7 @@ footer {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    height: 15vh;
+    height: 22vh;
     background-color: rgb(29, 29, 29);
 }
 
@@ -524,6 +494,30 @@ footer {
 
 @media screen and (min-width: 62.5em) {
 
+    .fixed-top { 
+
+        text-transform: uppercase;
+        text-decoration: none;
+        position: fixed;
+        right: 0;
+        top: 80%;
+        width: 10em;
+    }
+
+    .fixed-top-text {
+
+        text-align: center;
+        padding: 1.1em;
+        background-color: rgb(255, 197, 212);
+        color: #202020;
+        font-size: 1em;
+        border: 2px dashed rgb(226, 11, 93);
+    }
+
+    .fixed-top-text:hover {
+
+        background-color: rgb(255, 166, 190);
+    }
    
     .header-container {
 
