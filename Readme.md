@@ -1,4 +1,4 @@
-# Website Responsive I
+# Projeto Leoas Rosa
 
 This is an example of responsive layout design, adopting best practices of mobile-first.
 
